@@ -23,6 +23,7 @@ header {
     box-shadow: 0px 8px 12px 0px rgba(215, 215, 215, 0.86);
 }
 
+
 .flex {
     display: flex;
     align-items: center;
@@ -39,7 +40,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 50px;
 }
 
 .logo h1 {
@@ -50,8 +51,7 @@ header {
 }
 
 .search {
-    font-size: 22px;
-    cursor: pointer;
+   cursor: pointer;
     margin-right: 100px;
 }
 
@@ -63,16 +63,16 @@ header {
 
 .search i {
     padding: 0 20px;
-    font-size: 24px;
+    font-size: 18px;
     color: grey;
 }
 
 .search button {
-    font-size: 24px;
-    padding: 15px;
+    font-size: 18px;
+    padding: 10px;
     background-color: red;
     border-radius: 50%;
-    width: 60px;
+    width: 50px;
     margin: 0 10px;
     color: white;
     border: solid 1px red;
@@ -81,15 +81,13 @@ header {
 
 main {
     display: flex;
-    margin: 50px 150px;
+    margin: 20px 50px;
 }
 
-.content {
-    width: 70%;
-}
+
 
 .navigation_bar {
-    height: 80px;
+    height: 50px;
     border-bottom: solid 1px lightgrey;
     display: flex;
     align-items: center;
@@ -97,45 +95,40 @@ main {
     top: 0;
     cursor: pointer;
     background-color:white ;
-    
-
 }
 
 .navigation_bar span {
     color: gray;
-    font-size: 30px;
-    padding: 0 30px;
+    padding: 0 20px;
     z-index: 0;
     font-weight: bold;
+    font-size: 18px;
 }
 
 
 #select {
     border-bottom: solid 3px black;
     z-index: 2;
-    padding: 22px 0;
+    padding: 13px 0;
     color: black;
 }
 
 .bio {
     display: flex;
     align-items: center;
-    margin: 20px 0;
-    height: 70px;
+    margin: 1em 0;
     
 }
 
 .bio img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 20%;
-    margin: 10px;
+    margin: 5px;
 
 }
 
 .bio>p {
-    font-size: 24px;
-    padding: 0 20px;
     font-weight: bold;
 }
 
@@ -143,23 +136,20 @@ main {
     color: grey;
 }
 
-
-
 .img_art  img { 
-   
     padding: 10px;
-    width: 300px;
-    height: 200px;
-
-}
+    width: 20rem;
+    height: 15rem;
+    
+} 
 
 .text {
-    margin: 20px 0;
-    width: 80%;
+    margin: 5px;
+    
+
 }
 
 .text h1 {
-    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
     
@@ -167,9 +157,8 @@ main {
 
 .text p {
     color: grey;
-    font-size: 18px;
     font-weight: bold;
-    padding: 15px 0;
+    padding: 10px 0;
     cursor: pointer;
 
 }
@@ -177,52 +166,49 @@ main {
 #special-list {
     background-color: lightgray;
     border-radius: 10px;
+    
 }
 
 .info>div>ul>li {
-    padding:0 20px;
+    padding:0 10px;
     list-style: none;
-    font-size: 16px;
+    font-size: 0.8em;
     color: grey;
     cursor: pointer;
 }
 
 .icone_art ion-icon {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
     cursor: pointer;
 }
 
 .icone_art i {
-    font-size: 20px;
+    font-size: 1em;
     cursor: pointer;
 }
+
 article {
-    height: 300px;
-    margin: 100px 0;
+    margin: 2em 1em;
 }
 
-.board {
-    width: 70%;
-}
+
 
 .menu img {
-    width: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
 .menu {
-    margin: 30px 100px;
+    
     border-left: solid 1px lightgrey;
-    padding: 0 100px;
-    margin-right: 0;
-    width: 30%;
-    padding-right: 0;
-}
-
-section {
-   
-    margin: 20px;
+    padding-left: 2em;
+    width: 40vw;
+    position: sticky;
+    top: 0;
+    height: 90%;
+ 
 }
 
 .intro-menu {
@@ -235,12 +221,16 @@ section {
 }
 
 .intro-menu>div>i {
-    font-size: 50px;
+    font-size: 30px;
     padding: 0;
 }
 
 section.intro-menu>div {
-    margin: 30px 0;
+    margin: 20px 0;
+}
+
+section{
+    margin: 20px 0;
 }
 
 #twitter {
@@ -248,7 +238,6 @@ section.intro-menu>div {
 }
 
 .intro-menu p {
-    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -259,43 +248,40 @@ section.intro-menu>div {
     margin-bottom: 30px;
     cursor: pointer;
     
+    
 }
 
 section.intro-menu>button>a {
-    font-size: 20px;
     text-decoration: none;
 }
 
-section.intro-menu>button>i {
-    font-size: 25px;
-}
 
 section.intro-menu>a {
     color: grey;
-    font-size: 20px;
-    margin-bottom: 30px;
+     margin-bottom: 30px;
 }
 
 .reccomended {
     margin-top: 20px;
+    
    
 }
 
 .reccomended h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .reccomended>ul {
     display: flex;
     flex-wrap: wrap;
-
+    
+    
 }
 
+
 .reccomended>ul>li {
-    margin: 10px;
-    font-size: 18px;
-    padding: 10px;
+    margin: 0.3rem;
+    padding: 0.5rem;
     background-color: rgb(231, 230, 230);
     border-radius: 20px;
     list-style: none;
@@ -307,33 +293,46 @@ section.intro-menu>a {
     margin: 20px 0;
 }
 
-
-
-.prof>div {
-    margin: 30px 0
-    ;
+.prof h2 {
+    margin-top: 10px;
 }
 
-.prof>div>div {
-    padding: 20px;
+.p-board {
+    display: flex;
+    justify-content: space-between;
 }
 
-.prof button {
-    font-size: 24px;
-    padding: 10px;
+.p-board {
+    padding: 20px 0;
+}
+
+
+
+.p-board>button {
     background-color:white;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
+    height: 2rem;
+    width: 4rem;
+    margin: auto;
 }
+
 
 .prof h3 {
     font-weight: 800;
     cursor: pointer;
+    font-size: 15px;
+
 }
 
 .prof p {
     color: grey;
-    font-size: 18px;
+    font-size: 13px;
+    width: 80%;
+}
+
+#center {
+    margin-left: 10px;
 }
 
 .saved {
@@ -345,20 +344,17 @@ section.intro-menu>a {
   margin-bottom: 20px;
 }
 
-.saved img {
-    width: 50px;
-    border-radius: 20px;
-}
+
 
 .autore-menu {
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .autore-menu p {
-    font-size: 20px;
-    margin: 0 20px;
+    margin: 0 10px;
     font-weight: bold;
 }
 
@@ -367,25 +363,27 @@ section.intro-menu>a {
 }
 
 .saved h3 {
-    font-weight: 800;
-    font-size: 22px;
+    font-weight:bold;
+    font-size: 1em;
 }
 
 .saved ul {
     display: flex;
-    margin: 20px 0;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    
 }
 
 .saved li {
     list-style: none;
-    font-size: 20px;
     color: grey;
     margin: 0 10px;
+    font-size: 13px;
+   
 }
 
 .saved a {
     color: green;
-    font-size: 22px;
     
 }
 
@@ -395,33 +393,33 @@ section.intro-menu>a {
 }
 
 .autore2-menu span {
-    margin: 0 20px;
+    
     font-weight: bold;
     color: black;
-    font-size: 20px;
     cursor: pointer;
 }
 
 #saluto {
-    margin: 20px 0;
-    font-size: 30px;
+    margin: 10px 0;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .last-list ul {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .last-list>ul>li {
     padding: 10px;
-    font-size: 18px;
     color: grey;
     list-style: none;
     cursor: pointer;
+    
 }
 
 
 .last-list {
-    margin: 20px 0;
+    margin: 30px 0;
 }
